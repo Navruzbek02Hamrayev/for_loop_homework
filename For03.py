@@ -11,3 +11,4 @@ def main(k,n):
     l.append(k)
     return l*n
 print(main(5,3))
+print(main(-1,4))
