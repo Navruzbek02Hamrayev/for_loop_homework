@@ -6,9 +6,9 @@ def main(N):
     Returns:
         float: return  answer
     """
-    i=0
-    while i<=N:
-        N[i]
-        i+=1
-    return N[i]
+    if N>=0:
+        sum=0
+        for i in range(1,N+1):
+            sum+=1/i
+    return sum
 print(main(4))
