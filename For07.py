@@ -6,5 +6,5 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return sum(list(range(1,12,2)))
+    return sum(list(range(1,N,2)))
 print(main(12))
