@@ -6,4 +6,9 @@ def main(N):
     Returns:
         float: return  answer
     """
-    return
+    i=0
+    while i<=N:
+        N[i]
+        i+=1
+    return N[i]
+print(main(4))
